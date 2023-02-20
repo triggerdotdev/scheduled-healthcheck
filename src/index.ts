@@ -25,7 +25,7 @@ new Trigger({
     if (!response.ok || ctx.isTest) {
       // Post a message to Slack, see https://docs.trigger.dev/integrations/apis/slack/actions/post-message
       await slack.postMessage("🤒", {
-        channelName: "health-checks",
+        channelName: "website-health-check",
         text: `😭 ${WEBSITE_URL} is down!`,
       });
     }
