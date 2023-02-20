@@ -1,7 +1,7 @@
 {
   "name": "@trigger.dev/templates-scheduled-healthcheck",
   "version": "1.0.0",
-  "description": "A start template for Trigger.dev that checks for a 200 response from a URL and sends a notification if it doesn't get one.",
+  "description": "A starter template for Trigger.dev that checks for a 200 response from a URL and sends a notification if it doesn't get one.",
   "main": "dist/index.js",
   "private": true,
   "scripts": {
