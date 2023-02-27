@@ -38,7 +38,7 @@ new Trigger({
 You can easily create a new project interactively based on this template by running:
 
 ```sh
-npm create trigger@latest scheduled-healthcheck
+npx create-trigger@latest scheduled-healthcheck
 # or
 yarn create trigger scheduled-healthcheck
 # or
