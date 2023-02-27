@@ -33,6 +33,20 @@ new Trigger({
 }).listen();
 ```
 
+## 🔧 Install
+
+You can easily create a new project interactively based on this template by running:
+
+```sh
+npm create trigger@latest scheduled-healthcheck
+# or
+yarn create trigger scheduled-healthcheck
+# or
+pnpm create trigger@latest scheduled-healthcheck
+```
+
+Follow the instructions in the CLI to get up and running locally in <30s.
+
 ## ✍️ Customize
 
 - You can set the website url by defining the `WEBSITE_URL` environment variable.
@@ -40,46 +54,6 @@ new Trigger({
 - Update the frequency (you can go as frequent as once per minute)
 
 Be sure to check out more over on our [docs](https://docs.trigger.dev)
-
-## 🚀 Deploy
-
-We've made it really easy to deploy this repo to Render.com, if you don't already have a Node.js server to host your triggers.
-
-[Render.com](https://render.com) is a super-fast way to deploy webapps and servers (think of it like a modern Heroku)
-
-<a href="https://render.com/deploy?repo=https://github.com/triggerdotdev/scheduled-healthcheck">
-  <img width="144px" src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-
-> **Note** Make sure you use your "live" trigger.dev API Key when deploying to a server
-
-## 💻 Run locally
-
-First, in your terminal of choice, clone the repo and install dependencies:
-
-```sh
-git clone https://github.com/triggerdotdev/scheduled-healthcheck.git
-cd scheduled-healthcheck
-npm install
-```
-
-Then execute the following command to create a `.env` file with your development Trigger.dev API Key:
-
-```sh
-echo "TRIGGER_API_KEY=<APIKEY>" >> .env
-```
-
-And finally you are ready to run the process:
-
-```sh
-npm run dev
-```
-
-You should see a message output in your terminal like the following:
-
-```
-[trigger.dev]  ✨ Connected and listening for events [scheduled-healthcheck]
-```
 
 ## 🧪 Test it
 
